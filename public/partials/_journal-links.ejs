@@ -1,0 +1,9 @@
+<ul class="list-group journal-list">
+	<% for(var slug in public.journal._data){ %>
+	  <li class="list-group-item text-center journal-list__item">
+		  <a href="/journal/<%= slug %>" class="journal-list__link"><%= public.journal._data[slug].title %></a>
+		  <%= public.journal._data[slug].title %></a>
+	  </li>
+	  <%- partial("journal/" + slug) %>
+	<% }; %>
+</ul>

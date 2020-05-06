@@ -9,16 +9,9 @@
       <!-- pull in the header/navbar partial: -->
       <%- partial("../partials/_header") %>
       <div class="row">
-        <div class="chapter-content col-md-8 p-0">
+        <div class="journal-content col-md-8 p-0">
           <!-- Create the title banner, using the title and image from data.json -->
-          <div class="chapter-content__title-banner">
-            <h1 class="chapter-content__title-heading"><%= title %></h1>
-            <img src="../img/chapter-headings/<%= header_img %>" alt="" class="chapter-content__banner-img">
-          </div>
           <%- yield %>
-        </div>
-        <div class="chapter-links-wrapper--chapters-template col-md-4">
-          <%- partial("../partials/_chapter-links") %>
         </div>
       </div> <!-- end of row -->
 

@@ -1,0 +1,16 @@
+{
+  "journal-2020-pubsub-pattern-in-unreal": {
+    "title": "Editor Utility Widget Communication",
+	  "subtitle": "Using multicast delegates to route events",
+    "date": "2020-03-31",
+		"bg_color": "bg-gold",
+		"tags": ["unreal engine", "editor", "utility widgets", "events"]
+  },
+  "journal-2020-03-the-perfect-unix-environment-in-windows": {
+    "title": "Windows Subsystem For Linux Development Environment",
+	  "subtitle": "Windows Finally Has a Good Linux Shell",
+    "date": "2020-04-20",
+		"bg_color": "bg-gold",
+		"tags": ["linux", "unix", "tmux", "bash", "terminal", "command line", "wsl"]
+  }
+}
